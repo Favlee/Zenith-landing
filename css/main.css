@@ -30,8 +30,8 @@ select {
 img {
   height: 50px;
   position: relative;
-  left: 8rem;
-  top: 2rem;
+  left: 10rem;
+  top: 0.15rem;
   margin-bottom: 1.2rem;
   width: 50px;
 }
@@ -47,4 +47,35 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+li {
+  text-align: center;
+  width: 31.9%;
+  margin-bottom: 3px;
+  display: inline-block;
+  font-size: 10px;
+  padding: 0;
+}
+i {
+  display: block;
+  margin: 0 auto 10px auto;
+  width: 32px;
+  height: 32px;
+  margin: 10px auto 0;
+  line-height: 32px;
+  text-align: center;
+  font-size: 50px;
+  color: red;
+  margin-top: 0;
+  padding-top: 5px;
+}
+a span {
+  color: black;
+  font-size: 10px;
+  padding: 5px 0 10px 0;
+  display: block;
+  letter-spacing: 1px;
+}
+a {
+  text-decoration: none;
 }
