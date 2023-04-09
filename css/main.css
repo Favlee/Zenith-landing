@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .nav-link {
   text-decoration: none;
   align-items: center;
@@ -22,10 +28,12 @@ select {
   width: 6rem;
 }
 img {
-  height: 6rem;
+  height: 50px;
   position: relative;
   left: 8rem;
   top: 2rem;
+  margin-bottom: 1.2rem;
+  width: 50px;
 }
 .josh {
   position: relative;
@@ -34,10 +42,9 @@ img {
   margin-left: 0.1cm;
 }
 .bg {
-  background: url('../images/josh.jpeg');
-  height: 22rem;
+  background: url('../images/bg.png');
+  height: 80vh;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-position: center;
+  background-size: cover;
 }
